@@ -1,0 +1,30 @@
+a {
+    text-decoration: none;
+    font-size: x-large;
+    font-family: Arial, serif;
+    color: white;
+    padding: 30px;
+
+}
+h2{
+    padding: 30px;
+}
+.content_img{
+    padding: 30px;
+    margin-left: 10px;
+}
+a:hover {
+    color: red;
+}
+
+footer ol {
+    list-style-type: none;
+    /*text-align: center;*/
+    padding: 40px;
+}
+
+footer ol li {
+    display: inline;
+    margin-right: 15px;
+
+}

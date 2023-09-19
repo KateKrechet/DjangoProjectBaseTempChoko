@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+    Шоколадка
+{% endblock title %}
+
+{% block content %}
+    <h2 class="text-bg-secondary">{{ k1 }}</h2>
+    <img src="{% static k2 %}" alt="" width="400px" class="rounded-circle content_img">
+    <h2 class="text-bg-secondary">{{ k3 }}</h2>
+{% endblock content %}
+
+{% block footer %}
+    <a href="{{ k5 }}" target="_blank"><img src="{% static k4 %}"
+                                            alt="logo" width="100px"
+                                            class="rounded-circle"></a>
+    <br>
+    <br>
+    <a href="{% url 'home' %}" >На главную</a>
+{% endblock footer %}
